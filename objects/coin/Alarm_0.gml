@@ -1,0 +1,1 @@
+move=1 y-=8 audio_play_sound(sfx_coin,1,false)

@@ -1,0 +1,1 @@
+if input_pause() {room=rm_worldmap}

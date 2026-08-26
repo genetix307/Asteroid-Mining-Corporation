@@ -1,0 +1,1 @@
+if 1>random(100) {instance_destroy()}

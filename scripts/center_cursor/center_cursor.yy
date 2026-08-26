@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"center_cursor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"center_cursor",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

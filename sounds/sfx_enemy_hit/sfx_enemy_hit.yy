@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_enemy_hit",
+  "audioGroupId":{
+    "name":"audio_sfx",
+    "path":"audiogroups/audio_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.8807709,
+  "exportDir":"",
+  "name":"sfx_enemy_hit",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_enemy_hit.wav",
+  "volume":1.0,
+}

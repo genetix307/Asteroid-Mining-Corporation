@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"update_cards_used",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"update_cards_used",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

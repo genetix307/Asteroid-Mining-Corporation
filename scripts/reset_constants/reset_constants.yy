@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"reset_constants",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"reset_constants",
+  "parent":{
+    "name":"Init",
+    "path":"folders/Scripts/Init.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

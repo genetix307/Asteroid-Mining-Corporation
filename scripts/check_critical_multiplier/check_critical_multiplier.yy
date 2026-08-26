@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"check_critical_multiplier",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_critical_multiplier",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

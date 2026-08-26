@@ -1,0 +1,1 @@
+other.onfire=300

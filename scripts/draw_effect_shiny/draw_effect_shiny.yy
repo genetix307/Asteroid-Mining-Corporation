@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_effect_shiny",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_effect_shiny",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Draw.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"check_speed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_speed",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

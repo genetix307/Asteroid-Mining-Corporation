@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_pause",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_pause",
+  "parent":{
+    "name":"Input",
+    "path":"folders/Scripts/Input.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

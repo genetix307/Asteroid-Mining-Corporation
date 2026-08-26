@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"set_victory",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"set_victory",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

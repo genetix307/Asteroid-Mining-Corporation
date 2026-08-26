@@ -1,0 +1,3 @@
+draw_self()
+
+draw_sprite_ext(sprite_index,image_index,x+sprite_width/6,y-sprite_height/16,image_xscale,image_yscale+.05,340,c_black,.2)
