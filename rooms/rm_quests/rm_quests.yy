@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_12F128D1_1_1","path":"rooms/rm_quests/rm_quests.yy",},
-    {"name":"inst_7CD71112_1","path":"rooms/rm_quests/rm_quests.yy",},
     {"name":"inst_2D60A76F","path":"rooms/rm_quests/rm_quests.yy",},
     {"name":"inst_5EFB96D1","path":"rooms/rm_quests/rm_quests.yy",},
     {"name":"inst_19BC03BA","path":"rooms/rm_quests/rm_quests.yy",},
@@ -17,7 +16,6 @@
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_12F128D1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_12F128D1_1_1","objectId":{"name":"cursor_menu","path":"objects/cursor_menu/cursor_menu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1008.0,"y":592.0,},
-        {"$GMRInstance":"v4","%Name":"inst_7CD71112_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CD71112_1","objectId":{"name":"btn_castle","path":"objects/btn_castle/btn_castle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1168.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"inst_2D60A76F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D60A76F","objectId":{"name":"show_menu_quests","path":"objects/show_menu_quests/show_menu_quests.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_5EFB96D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EFB96D1","objectId":{"name":"btn_quests_page1","path":"objects/btn_quests_page1/btn_quests_page1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1160.0,"y":600.0,},
         {"$GMRInstance":"v4","%Name":"inst_19BC03BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19BC03BA","objectId":{"name":"btn_quests_page2","path":"objects/btn_quests_page2/btn_quests_page2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1168.0,"y":656.0,},

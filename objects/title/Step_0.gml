@@ -19,5 +19,5 @@ if clicked>0 and fade>2
 {
 	//if store.story_scene=0 {room=rm_story_default}
 	//if store.story_scene>0 {room = rm_worldmap}
-	room=rm_main_game
+	room=rm_menu_upgrades
 }

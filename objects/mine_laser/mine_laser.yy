@@ -8,6 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"mine_asteroid","path":"objects/mine_asteroid/mine_asteroid.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"mine_laser",
@@ -17,8 +18,8 @@
     "path":"folders/Objects/Environment/Mining.yy",
   },
   "parentObjectId":{
-    "name":"def_weapon_player1",
-    "path":"objects/def_weapon_player1/def_weapon_player1.yy",
+    "name":"def_weapon_player",
+    "path":"objects/def_weapon_player/def_weapon_player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

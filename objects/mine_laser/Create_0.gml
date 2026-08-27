@@ -1,8 +1,8 @@
 attack_damage=store.mine_damage
 attack_effect=""
 critical_chance=store.mine_critical_chance
-move_speed=6
-speed=6
+move_speed=store.mine_move_speed
+speed=move_speed
 //type="Physical"
 //ability=""
 image_alpha=0

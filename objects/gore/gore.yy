@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_gore",
-    "path":"sprites/spr_gore/spr_gore.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

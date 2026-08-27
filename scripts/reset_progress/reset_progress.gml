@@ -6,28 +6,58 @@ store.max_gamespeed=5.00
 store.ads_watched=0
 store.gem_chest_cooldown=0
 store.show_rating=0
-store.gems=200
+store.gems=0
 store.current_area=""
 store.world_day=1
 store.demo_cta=0
-store.secret_forest=0
 store.mining_wait=0
 store.tier=1
 
 //Mining stats
 store.mine_time=10
 store.mine_speed=1
+store.mine_move_speed=6
 store.mine_damage=1
-store.mine_critical_chance=5
+store.mine_critical_chance=3
 store.mine_critical_multiplier=2
-store.mine_multishot_chance=5
-store.mine_asteroid_spawn=25
+store.mine_multishot_chance=3
+store.mine_asteroid_spawn=30
 store.mine_asteroid_size=1
 store.mine_asteroid_density=1
 store.mine_asteroid_gold_chance=5
 store.mine_asteroid_diamond_chance=0
 store.mine_asteroid_time_extend_chance=0
 store.mine_spawn_chance=0
+
+// Mining Upgrades
+store.cost_mine_time=10
+store.lvl_mine_time=1
+store.cost_mine_speed=10
+store.lvl_mine_speed=1
+store.cost_mine_move_speed=10
+store.lvl_mine_move_speed=1
+store.cost_mine_damage=10
+store.lvl_mine_damage=1
+store.cost_mine_critical_chance=10
+store.lvl_mine_critical_chance=1
+store.cost_mine_critical_multiplier=10
+store.lvl_mine_critical_multiplier=1
+store.cost_mine_multishot_chance=10
+store.lvl_mine_multishot_chance=1
+store.cost_mine_asteroid_spawn=10
+store.lvl_mine_asteroid_spawn=1
+store.cost_mine_asteroid_size=10
+store.lvl_mine_asteroid_size=1
+store.cost_mine_asteroid_density=10
+store.lvl_mine_asteroid_density=1
+store.cost_mine_asteroid_gold_chance=10
+store.lvl_mine_asteroid_gold_chance=1
+store.cost_mine_asteroid_diamond_chance=500
+store.lvl_mine_asteroid_diamond_chance=1
+store.cost_mine_asteroid_time_extend_chance=10
+store.lvl_mine_asteroid_time_extend_chance=1
+store.cost_mine_spawn_chance=50
+store.lvl_mine_spawn_chance=1
 
 //Game Settings
 store.color_scheme=4

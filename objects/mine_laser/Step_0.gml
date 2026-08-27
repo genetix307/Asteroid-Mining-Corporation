@@ -48,4 +48,4 @@ if (hit_wall and bounce>0)
 		
 //	}
 
-if distance_to_object(mine_ship)>2000 {instance_destroy()}
+if distance_to_object(mine_ship)>5000 {instance_destroy()}

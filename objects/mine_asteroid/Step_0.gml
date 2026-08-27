@@ -12,10 +12,10 @@ if hp<=0
 repeat 5 instance_create_depth(other.x,other.y-8,depth-10,asteroid_debris)
 instance_create_depth(other.x,other.y+4,depth,show_text_green).myText=value
 store.gems+=value
-hud_mining.run_gems+=value
+hud.run_gems+=value
 
 //Extend Time
-if store.mine_asteroid_time_extend_chance>random(100) {hud_mining.run_time+=120 instance_create_depth(other.x+3,other.y-22,depth-15,effect_clock)}
+if store.mine_asteroid_time_extend_chance>random(100) {hud.run_time+=120 instance_create_depth(other.x+3,other.y-22,depth-15,effect_clock)}
 //Spawn
 if store.mine_spawn_chance>random(100) {instance_create_depth(x,y,depth,mine_asteroid)}
 

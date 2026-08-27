@@ -1,1 +1,0 @@
-room=rm_mining_upgrades

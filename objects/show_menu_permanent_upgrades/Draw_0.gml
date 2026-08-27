@@ -1,5 +1,5 @@
 draw_set_font(font_large_hud)
-draw_text_shadow_color(6,4,"Tower Upgrades",c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(6,4,"Mining Upgrades",c_white,c_white,c_silver,c_silver)
 draw_line_colour(6,58,315,58,c_white,c_silver)
 draw_line_colour(6,59,315,59,c_white,c_silver)
 

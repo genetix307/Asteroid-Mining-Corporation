@@ -1,1 +1,0 @@
-if 5>random(100) {instance_destroy()}
