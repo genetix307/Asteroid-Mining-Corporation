@@ -15,7 +15,7 @@ if myID=13 {myName="Diamond Chance" myStat=calc_number(store.mine_asteroid_diamo
 if myID=14 {myName="Spawn Chance" myStat=calc_number(store.mine_spawn_chance) postStat="%" myCost=store.cost_mine_spawn_chance nextStat=.50 myCap=30 mylvl=store.lvl_mine_spawn_chance myDesc = "Chance to Spawn new Asteroid"}
 
 // Locked
-if mylvl=0 {myName="??????" myCost=25 greyed_out=1}
+if mylvl=0 {myName="??????" myCost=25 greyed_out=1 locked=1}
 //if myID=13 and store.tier_best_1<30 {locked=1 myName="??????" myDesc="Reach Tier 2 to Unlock!"}
 //if myID=14 and store.tier_best_1<20 {locked=1 myName="??????" myDesc="Reach Wave 20 on Tier 1 to Unlock!"}
 

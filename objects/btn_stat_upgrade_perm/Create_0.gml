@@ -15,5 +15,5 @@ capped=0
 mylvl=0
 locked=0
 
-myDesc = ""
+myDesc = "Upgrade Locked"
 
