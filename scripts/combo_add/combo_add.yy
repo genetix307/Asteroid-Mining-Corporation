@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"combo_add",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"combo_add",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

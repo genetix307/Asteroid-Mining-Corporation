@@ -322,6 +322,7 @@
     {"name":"check_quests_completed","order":13,"path":"scripts/check_quests_completed/check_quests_completed.yy",},
     {"name":"check_reflect","order":6,"path":"scripts/check_reflect/check_reflect.yy",},
     {"name":"check_speed","order":7,"path":"scripts/check_speed/check_speed.yy",},
+    {"name":"combo_add","order":15,"path":"scripts/combo_add/combo_add.yy",},
     {"name":"draw_btn_color","order":1,"path":"scripts/draw_btn_color/draw_btn_color.yy",},
     {"name":"draw_card","order":6,"path":"scripts/draw_card/draw_card.yy",},
     {"name":"draw_effect_shiny","order":5,"path":"scripts/draw_effect_shiny/draw_effect_shiny.yy",},
@@ -483,6 +484,7 @@
     {"name":"spr_show_gold","order":1,"path":"sprites/spr_show_gold/spr_show_gold.yy",},
     {"name":"spr_show_lifesteal_1","order":10,"path":"sprites/spr_show_lifesteal_1/spr_show_lifesteal_1.yy",},
     {"name":"spr_show_lifesteal","order":2,"path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},
+    {"name":"spr_title","order":28,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"spr_tower","order":1,"path":"sprites/spr_tower/spr_tower.yy",},
     {"name":"spr_tower1","order":29,"path":"sprites/spr_tower1/spr_tower1.yy",},
     {"name":"spr_trees_snowy","order":11,"path":"sprites/spr_trees_snowy/spr_trees_snowy.yy",},
@@ -492,6 +494,5 @@
     {"name":"spr_weapon_effect_arrow1","order":20,"path":"sprites/spr_weapon_effect_arrow1/spr_weapon_effect_arrow1.yy",},
     {"name":"spr_wood_crate","order":7,"path":"sprites/spr_wood_crate/spr_wood_crate.yy",},
     {"name":"spr_xp_orb","order":2,"path":"sprites/spr_xp_orb/spr_xp_orb.yy",},
-    {"name":"Sprite140","order":10,"path":"sprites/Sprite140/Sprite140.yy",},
   ],
 }
