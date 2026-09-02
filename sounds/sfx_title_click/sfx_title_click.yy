@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_sword_click",
+  "%Name":"sfx_title_click",
   "audioGroupId":{
     "name":"audio_sfx",
     "path":"audiogroups/audio_sfx",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.5798414,
+  "duration":1.5670975,
   "exportDir":"",
-  "name":"sfx_sword_click",
+  "name":"sfx_title_click",
   "parent":{
     "name":"SFX",
     "path":"folders/Sounds/SFX.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_sword_click.mp3",
-  "volume":1.0,
+  "soundFile":"sfx_title_click.mp3",
+  "volume":0.26,
 }

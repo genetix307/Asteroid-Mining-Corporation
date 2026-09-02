@@ -1,4 +1,4 @@
-instance_create_depth(x,y,depth,mine_crosshair)
+instance_create_depth(x,y,depth,crosshair)
 
 focus_direction=0
 reload=0

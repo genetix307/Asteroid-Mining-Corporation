@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"mine_crosshair",
+  "%Name":"crosshair",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"mine_crosshair",
+  "name":"crosshair",
   "overriddenProperties":[],
   "parent":{
     "name":"Mining",

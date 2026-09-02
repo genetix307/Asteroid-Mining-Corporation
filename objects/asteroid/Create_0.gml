@@ -15,6 +15,7 @@ image_yscale=store.mine_asteroid_size +random(.2)
 spin=random_range(-3,3)
 shield=0
 type="Asteroid"
+damaged=0
 
 orbit_angle = point_direction(mine_ship.x, mine_ship.y, x, y);
 orbit_radius = point_distance(mine_ship.x, mine_ship.y, x, y);

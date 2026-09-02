@@ -16,9 +16,9 @@ combo_value = 0;
 combo_max = 100;
 combo_multiplier = 0;
 // How much each destroyed asteroid fills the meter
-combo_per_asteroid = 25;
+combo_per_asteroid = 30;
 // How quickly the meter drains per second
-combo_drain_rate = 15;
+combo_drain_rate = 20;
 // Colors for each multiplier level
 combo_colors = [
     c_aqua,

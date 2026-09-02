@@ -14,7 +14,7 @@ base_damage = attack_damage;
 base_crit = critical_chance;
 distance_traveled = 0;
 //direction=tower.focus_direction+multishot_offset
-//audio_play_sound(sfx_fire_cannon,1,false)
+audio_play_sound(sfx_title_click,1,false,.25,,.75+random(.25))
 
 ////Bouncy Arrow Card
 //if store.card_slot_1 = 11 or store.card_slot_2 = 11 or store.card_slot_3 = 11 or store.card_slot_4 = 11
@@ -22,3 +22,4 @@ distance_traveled = 0;
 //		bounce=store.card_lvl_bouncy
 //	}
 	
+sound_fade=0

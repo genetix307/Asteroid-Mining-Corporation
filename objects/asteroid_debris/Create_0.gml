@@ -1,6 +1,8 @@
 image_alpha = 1.8
 image_angle = random(360)
 image_index = round(random(image_number))
+image_xscale=.5+random(.5)
+image_yscale=image_xscale
 rise=0
 spin=random_range(-6,6)
 

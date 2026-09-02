@@ -1,4 +1,5 @@
 image_angle+=spin
+if damaged>0 {damaged-=1}
 
 orbit_angle += orbit_speed;
 orbit_radius -= spiral_speed;
@@ -9,9 +10,9 @@ y = mine_ship.y + lengthdir_y(orbit_radius, orbit_angle);
 if hp<=0 
 {
 //instance_create_depth(other.x,other.y-12,depth-10,blood_splatter)
-repeat 5 instance_create_depth(other.x,other.y-8,depth-10,asteroid_debris)
+repeat 6+random(2) instance_create_depth(other.x,other.y-8,depth-10,asteroid_debris)
 myReward=value * (1 + hud.combo_multiplier);
-instance_create_depth(other.x,other.y+4,depth,show_text_green).myText=myReward
+instance_create_depth(other.x,other.y+4,depth,show_text_green).myText="$"+string(myReward)
 store.gems+=myReward
 hud.run_gems+=myReward
 

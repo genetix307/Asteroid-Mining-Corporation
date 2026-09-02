@@ -10,7 +10,7 @@ image_yscale = image_xscale
 //Next screen
 if canSkip=1 and input_any() and clicked=0 {
 clicked=1
-audio_play_sound(sfx_sword_click,1,false)
+audio_play_sound(sfx_title_click,1,false)
 }
 
 if clicked>0 {fade+=.00005}

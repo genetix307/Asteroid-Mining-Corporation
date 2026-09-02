@@ -3,6 +3,9 @@ image_angle=direction
 speed=move_speed*store.game_speed
 image_alpha+=.075
 
+//Sound Fade
+sound_fade+=.005
+
 // Bounds
 var left   = 0;
 var right  = room_width;
