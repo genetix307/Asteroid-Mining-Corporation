@@ -574,6 +574,7 @@
     {"id":{"name":"spr_show_criticalhit1","path":"sprites/spr_show_criticalhit1/spr_show_criticalhit1.yy",},},
     {"id":{"name":"spr_show_gem","path":"sprites/spr_show_gem/spr_show_gem.yy",},},
     {"id":{"name":"spr_show_gold","path":"sprites/spr_show_gold/spr_show_gold.yy",},},
+    {"id":{"name":"spr_show_key","path":"sprites/spr_show_key/spr_show_key.yy",},},
     {"id":{"name":"spr_show_lifesteal_1","path":"sprites/spr_show_lifesteal_1/spr_show_lifesteal_1.yy",},},
     {"id":{"name":"spr_show_lifesteal","path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},},
     {"id":{"name":"spr_stat_cap","path":"sprites/spr_stat_cap/spr_stat_cap.yy",},},

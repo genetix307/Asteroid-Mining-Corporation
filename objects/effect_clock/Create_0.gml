@@ -1,7 +1,7 @@
 image_alpha = 3.6
 //if store.effects=0 {instance_destroy()}
 depth=-y-1000
-
+store.time_extended+=1
 
 ////Quick Challenge
 //if (store.challenge_a=2 or store.challenge_b=2 or store.challenge_c=2) and store.goal_focused_shot<10+(15*store.lvl_focused_shot)

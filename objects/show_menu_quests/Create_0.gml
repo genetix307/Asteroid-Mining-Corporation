@@ -1,6 +1,6 @@
 depth=-10010
 
-questsTotal=79
+questsTotal=35
 questsCompleted=check_quests_completed()
 
 //Create Quest buttons

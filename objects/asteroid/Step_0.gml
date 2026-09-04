@@ -15,6 +15,9 @@ myReward=value * (1 + hud.combo_multiplier);
 instance_create_depth(other.x,other.y+4,depth,show_text_green).myText="$"+string(myReward)
 store.gems+=myReward
 hud.run_gems+=myReward
+if type="Asteroid" {store.asteroids_destroyed+=1}
+if type="Gold Asteroid" {store.gold_destroyed+=1}
+if type="Diamond Asteroid" {store.diamond_destroyed+=1}
 
 //Extend Time
 if store.mine_asteroid_time_extend_chance>random(100) {hud.run_time+=120 instance_create_depth(other.x+3,other.y-22,depth-15,effect_clock)}

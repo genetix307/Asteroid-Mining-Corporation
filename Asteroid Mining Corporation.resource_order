@@ -481,6 +481,7 @@
     {"name":"spr_show_criticalhit1","order":5,"path":"sprites/spr_show_criticalhit1/spr_show_criticalhit1.yy",},
     {"name":"spr_show_gem","order":4,"path":"sprites/spr_show_gem/spr_show_gem.yy",},
     {"name":"spr_show_gold","order":1,"path":"sprites/spr_show_gold/spr_show_gold.yy",},
+    {"name":"spr_show_key","order":29,"path":"sprites/spr_show_key/spr_show_key.yy",},
     {"name":"spr_show_lifesteal_1","order":10,"path":"sprites/spr_show_lifesteal_1/spr_show_lifesteal_1.yy",},
     {"name":"spr_show_lifesteal","order":2,"path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},
     {"name":"spr_title","order":28,"path":"sprites/spr_title/spr_title.yy",},

@@ -11,6 +11,7 @@ function combo_add(_amount)
         hud.combo_value -= hud.combo_max;
 
         hud.combo_multiplier += 1;
+		store.combo_multipliers+=1
 		
 	  // Bigger celebration pulse
         combo_pulse = 2;

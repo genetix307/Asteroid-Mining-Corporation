@@ -7,6 +7,7 @@ store.ads_watched=0
 store.gem_chest_cooldown=0
 store.show_rating=0
 store.gems=0
+store.keys=0
 store.current_area=""
 store.world_day=1
 store.demo_cta=0
@@ -230,6 +231,11 @@ store.crates=0
 store.hits=0
 store.survived_nocards=0
 store.mushrooms_harvested=0
+store.combo_multipliers=0
+store.asteroids_destroyed=0
+store.gold_destroyed=0
+store.diamond_destroyed=0
+store.time_extended=0
 
 //cards 
 store.slot_2_unlocked = 0

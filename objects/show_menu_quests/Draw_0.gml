@@ -12,6 +12,12 @@ draw_sprite(spr_show_gem,0,15,780)
 draw_set_color(c_yellow)
 draw_text_shadow_color(30,764,calc_number(store.gems),c_white,c_white,c_white,c_white) 
 
+//Draw Keys
+draw_set_font(font_stats)
+draw_sprite(spr_show_key,0,15,730)             
+draw_set_color(c_yellow)
+draw_text_shadow_color(30,734,calc_number(store.keys),c_white,c_white,c_white,c_white) 
+
 //Show Quests Completed
 draw_text_color(188,764,"Completed "+string(questsCompleted)+"/"+string(questsTotal),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
