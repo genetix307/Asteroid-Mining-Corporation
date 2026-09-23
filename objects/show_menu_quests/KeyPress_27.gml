@@ -1,1 +1,1 @@
-room=rm_castle
+room=rm_menu_upgrades
