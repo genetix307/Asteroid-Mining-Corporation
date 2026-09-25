@@ -7,7 +7,7 @@ focus_direction = point_direction(x,y,crosshair.x,crosshair.y)
 
 if reload<=0 and hud.run_end=0 {
 		instance_create_depth(x,y-4,depth,laser).direction = focus_direction
-		if store.mine_multishot_chance > random(100) {
+		if store.mine_multishot_chance > random(100) or hud.status_multiblast>0 {
 				instance_create_depth(x,y-4,depth,laser).direction = focus_direction+10
 				instance_create_depth(x,y-4,depth,laser).direction = focus_direction-10
 				//if store.relic_multiplicity=1 {
@@ -18,4 +18,5 @@ if reload<=0 and hud.run_end=0 {
 		}
 			
 reload = max(6,120/(1+store.mine_speed))
+if hud.status_hyperspeed>0 {reload=10}
 }

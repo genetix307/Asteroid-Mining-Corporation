@@ -16,6 +16,9 @@ spin=random_range(-3,3)
 shield=0
 type="Asteroid"
 damaged=0
+spawntype=""
+alarm[0]=1
+image_alpha=0
 
 orbit_angle = point_direction(mine_ship.x, mine_ship.y, x, y);
 orbit_radius = point_distance(mine_ship.x, mine_ship.y, x, y);

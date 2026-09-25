@@ -1,5 +1,6 @@
 image_angle+=spin
 if damaged>0 {damaged-=1}
+if image_alpha<1 {image_alpha+=.02}
 
 orbit_angle += orbit_speed;
 orbit_radius -= spiral_speed;

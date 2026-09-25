@@ -1,5 +1,5 @@
 tmpCrit=1
-if store.mine_critical_chance>random(100) {tmpCrit=store.mine_critical_multiplier instance_create_depth(other.x+3,other.y-2,depth-10,effect_criticalhit)}
+if store.mine_critical_chance>random(100) or hud.status_superfocus>0 {tmpCrit=store.mine_critical_multiplier instance_create_depth(other.x+3,other.y-2,depth-10,effect_criticalhit)}
 audio_play_sound(sfx_enemy_hit,1,false,1.05-sound_fade,,.75+random(.25))
 
 ////Lifesteal
