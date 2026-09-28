@@ -12,6 +12,9 @@ draw_sprite(spr_show_key,0,15,780)
 draw_set_color(c_yellow)
 draw_text_shadow_color(34,764,calc_number(store.keys),c_white,c_white,c_white,c_white) 
 
+draw_set_font(font_stats_tiniest)
+draw_text_colour(90,774,"Unlocked Power Ups have a chance to spawn each Run!",c_fuchsia,c_fuchsia,c_fuchsia,c_fuchsia,1)
+
 
 
 

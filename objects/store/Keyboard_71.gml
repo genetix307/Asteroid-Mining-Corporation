@@ -1,5 +1,6 @@
 if store.devMode=1 {
-store.gems+=100
+store.gems+=50
+store.keys+=1
 }
 
 

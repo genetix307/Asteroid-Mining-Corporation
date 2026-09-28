@@ -36,6 +36,16 @@ if myID=32 {myDesc="Deal 250 Damage in a Hit" myReward=100 current=store.damage_
 if myID=33 {myDesc="Deal 500 Damage in a Hit" myReward=100 current=store.damage_dealt_hit goal=500}
 if myID=34 {myDesc="Deal 750 Damage in a Hit" myReward=100 current=store.damage_dealt_hit goal=750}
 if myID=35 {myDesc="Deal 1000 Damage in a Hit" myReward=100 current=store.damage_dealt_hit goal=1000}
+if myID=36 {myDesc="Unlock a Power Up" myReward=50 current=store.powerups_unlocked goal=1}
+if myID=37 {myDesc="Unlock 3 Power Ups" myReward=200 current=store.powerups_unlocked goal=3}
+if myID=38 {myDesc="Unlock 5 Power Ups" myReward=300 current=store.powerups_unlocked goal=5}
+if myID=39 {myDesc="Unlock 7 Power Ups" myReward=500 current=store.powerups_unlocked goal=7}
+if myID=40 {myDesc="Unlock 9 Power Ups" myReward=750 current=store.powerups_unlocked goal=9}
+if myID=41 {myDesc="Use 10 Power Ups" myReward=50 current=store.powerups_used goal=10}
+if myID=42 {myDesc="Use 25 Power Ups" myReward=200 current=store.powerups_used goal=25}
+if myID=43 {myDesc="Use 75 Power Ups" myReward=300 current=store.powerups_used goal=75}
+if myID=44 {myDesc="Use 150 Power Ups" myReward=500 current=store.powerups_used goal=150}
+if myID=45 {myDesc="Use 300 Power Ups" myReward=750 current=store.powerups_used goal=300}
 
 if current>=goal {greyed_out=0} 
 
