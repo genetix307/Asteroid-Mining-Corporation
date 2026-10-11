@@ -38,5 +38,7 @@ if store.powerup_secondwind=1 and 20>random(100) {instance_create_depth(x,y,dept
 //Combo
 combo_add(hud.combo_per_asteroid);
 
+store.job_xp+=1
+
 instance_destroy()
 }

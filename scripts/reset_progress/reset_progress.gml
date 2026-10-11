@@ -13,6 +13,8 @@ store.world_day=1
 store.demo_cta=0
 store.mining_wait=0
 store.tier=1
+store.job_level=1
+store.job_xp=0
 
 //Mining stats
 store.mine_time=10
@@ -59,6 +61,17 @@ store.cost_mine_asteroid_time_extend_chance=10
 store.lvl_mine_asteroid_time_extend_chance=1
 store.cost_mine_spawn_chance=50
 store.lvl_mine_spawn_chance=1
+
+//Power Ups
+store.powerup_hyperspeed=0
+store.powerup_goldrush=0
+store.powerup_supernova=0
+store.powerup_combolock=0
+store.powerup_superfocus=0
+store.powerup_multiblast=0
+store.powerup_asteroidstorm=0
+store.powerup_combosurge=0
+store.powerup_secondwind=0
 
 //Game Settings
 store.color_scheme=4
@@ -236,6 +249,8 @@ store.asteroids_destroyed=0
 store.gold_destroyed=0
 store.diamond_destroyed=0
 store.time_extended=0
+store.powerups_unlocked=0
+store.powerups_used=0
 
 //cards 
 store.slot_2_unlocked = 0
