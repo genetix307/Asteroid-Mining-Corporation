@@ -73,6 +73,20 @@ store.powerup_asteroidstorm=0
 store.powerup_combosurge=0
 store.powerup_secondwind=0
 
+//Relics
+store.relic_turbocharged=0
+store.relic_tball=0
+store.relic_multiplicity=0
+store.relic_earlybird=0
+store.relic_snowball=0
+store.relic_bouncy=0
+store.relic_criticalgold=0
+store.relic_investor=0
+store.relic_luckyclover=0
+store.relic_combinator=0
+store.relic_lastsecond=0
+store.relic_timedstrike=0
+
 //Game Settings
 store.color_scheme=4
 store.sfx_volume=1
@@ -251,6 +265,7 @@ store.diamond_destroyed=0
 store.time_extended=0
 store.powerups_unlocked=0
 store.powerups_used=0
+store.relics_unlocked=0
 
 //cards 
 store.slot_2_unlocked = 0
