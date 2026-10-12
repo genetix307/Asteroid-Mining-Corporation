@@ -15,7 +15,7 @@ draw_text_shadow_color(490,320,"End of Run",c_white,c_white,c_white,c_white)
 draw_set_font(font_med_hud)
 draw_text_shadow_color(456,362,"Earned "+calc_number(run_gems)+" Gems!",c_yellow,c_yellow,c_yellow,c_yellow)
 draw_set_font(font_stats_tiny)
-draw_text_shadow_color(400,405,"Asteroids until next promotion "+calc_number(store.job_xp)+"/"+calc_number(store.job_level*50),c_teal,c_teal,c_teal,c_teal)
+draw_text_shadow_color(400,405,"Asteroids until next promotion "+calc_number(store.job_xp)+"/"+calc_number(store.job_level*25),c_teal,c_teal,c_teal,c_teal)
 draw_set_font(font_stats)
 draw_text_shadow_color(410,442,"Press any button to Continue",c_white,c_white,c_white,c_white)
 }

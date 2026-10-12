@@ -1,5 +1,5 @@
 draw_set_font(font_large_hud)
-draw_text_shadow_color(6,4,"Job Promotion",c_white,c_white,c_silver,c_silver)
+//draw_text_shadow_color(6,4,"Job Promotion",c_white,c_white,c_silver,c_silver)
 draw_line_colour(6,58,315,58,c_white,c_silver)
 draw_line_colour(6,59,315,59,c_white,c_silver)
 
@@ -24,9 +24,9 @@ draw_set_alpha(1)
 draw_set_font(font_large_hud)
 draw_text_shadow_color(490,320,"Career Advancement",c_white,c_white,c_white,c_white)
 draw_set_font(font_med_hud)
-draw_text_shadow_color(436,362,"Earned "+calc_number(gem_reward)+" Gems and 3 Keys",c_yellow,c_yellow,c_yellow,c_yellow)
+draw_text_shadow_color(436,362,"Earned "+calc_number(gem_reward)+" Gems and 2 Keys",c_yellow,c_yellow,c_yellow,c_yellow)
 draw_set_font(font_stats)
-draw_text_shadow_color(350,402,"Good work employee 345612, now get back out there!",c_white,c_white,c_white,c_white)
+draw_text_shadow_color(350,402,"Good work employee #345612, now get back out there!",c_white,c_white,c_white,c_white)
 
 
 

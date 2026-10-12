@@ -46,6 +46,7 @@ combo_max = 100;
 combo_multiplier = 0;
 // How much each destroyed asteroid fills the meter
 combo_per_asteroid = 30;
+if store.relic_turbocharged>0 {combo_per_asteroid=45}
 // How quickly the meter drains per second
 combo_drain_rate = 20;
 // Colors for each multiplier level

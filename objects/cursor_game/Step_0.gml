@@ -23,6 +23,7 @@ if (mouse_check_button_pressed(mb_left))
     // Move cursor to mouse instantly so there's no visual mismatch
     x = device_mouse_x(0);
     y = device_mouse_y(0);
+	auto_aim=0
 }
 
 
@@ -39,6 +40,7 @@ if (abs(lx) > deadzone || abs(ly) > deadzone)
     // Move cursor freely
     x += lx * cursor_speed;
     y += ly * cursor_speed;
+	auto_aim=0
 }
 
 
@@ -68,3 +70,4 @@ y = clamp(y, 0, room_height);
 //show_debug_message("CURSOR X: " + string(x) + "  MOUSE X: " + string(mouse_x));
 
 window_set_cursor(cr_none);
+

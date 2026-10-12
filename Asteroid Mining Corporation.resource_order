@@ -180,6 +180,7 @@
     {"name":"menu_relic","order":9,"path":"objects/menu_relic/menu_relic.yy",},
     {"name":"menu_tower","order":10,"path":"objects/menu_tower/menu_tower.yy",},
     {"name":"mine_ship","order":1,"path":"objects/mine_ship/mine_ship.yy",},
+    {"name":"npc_evan","order":10,"path":"objects/npc_evan/npc_evan.yy",},
     {"name":"obj_gm_text","order":1,"path":"objects/obj_gm_text/obj_gm_text.yy",},
     {"name":"obj_gm_textbox","order":2,"path":"objects/obj_gm_textbox/obj_gm_textbox.yy",},
     {"name":"Obj_Steam_Achievement_ResetAll","order":1,"path":"objects/Obj_Steam_Achievement_ResetAll/Obj_Steam_Achievement_ResetAll.yy",},

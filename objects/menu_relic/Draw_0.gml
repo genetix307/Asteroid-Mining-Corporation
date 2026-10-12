@@ -1,6 +1,6 @@
 //draw_line_colour(x,y,instance_furthest(x,y,menu_relic).x,instance_furthest(x,y,menu_relic).y,c_white,c_silver)
 draw_self()
-if locked=1 {draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,c_black,1)}
+if locked=1 {draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,c_dkgray,1)}
 
 if distance_to_object(cursor_menu)<10 {
 draw_set_font(font_stats)

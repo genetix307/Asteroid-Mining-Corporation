@@ -12,3 +12,5 @@ using_controller = false;
 cursor_speed = 11;
 
 window_set_cursor(cr_none);
+
+auto_aim=0
