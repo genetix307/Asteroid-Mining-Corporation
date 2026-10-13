@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_show_lifesteal_1",
-    "path":"sprites/spr_show_lifesteal_1/spr_show_lifesteal_1.yy",
+    "name":"spr_show_lifesteal",
+    "path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

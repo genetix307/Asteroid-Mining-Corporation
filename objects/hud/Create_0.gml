@@ -3,19 +3,24 @@ game_paused=0
 run_time=store.mine_time*60
 run_end=0
 run_gems=0
+run_asteroids_destroyed=0
 
 repeat store.mine_asteroid_spawn instance_create_depth(x,y,depth,asteroid)
 
+
+var tmpLuckyClover=0
+if store.relic_luckyclover>0 {tmpLuckyClover=10}
+
 //Powerups
-if store.powerup_hyperspeed=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=1}
-if store.powerup_goldrush=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=2}
-if store.powerup_supernova=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=3}
-if store.powerup_combolock=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=4}
-if store.powerup_superfocus=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=5}
-if store.powerup_multiblast=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=6}
-if store.powerup_asteroidstorm=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=7}
-if store.powerup_combosurge=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=8}
-if store.powerup_secondwind=1 and 40>random(100) {instance_create_depth(x,y,depth,powerup).myID=9}
+if store.powerup_hyperspeed=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=1}
+if store.powerup_goldrush=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=2}
+if store.powerup_supernova=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=3}
+if store.powerup_combolock=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=4}
+if store.powerup_superfocus=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=5}
+if store.powerup_multiblast=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=6}
+if store.powerup_asteroidstorm=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=7}
+if store.powerup_combosurge=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=8}
+if store.powerup_secondwind=1 and (40+tmpLuckyClover)>random(100) {instance_create_depth(x,y,depth,powerup).myID=9}
 
 //Change backdrop
 if store.asteroids_destroyed>100 {
@@ -26,8 +31,6 @@ if 20>random(100) {layer_background_change(bg_id,bg_space_tile2);}
 if 20>random(100) {layer_background_change(bg_id,bg_space_tile3);}
 if 10>random(100) {layer_background_change(bg_id,bg_space_tile4);}
 }
-
-
 
 //Status
 status_hyperspeed=0

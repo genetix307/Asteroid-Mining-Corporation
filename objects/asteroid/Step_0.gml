@@ -2,6 +2,8 @@ image_angle+=spin
 if damaged>0 {damaged-=1}
 if image_alpha<1 {image_alpha+=.02}
 
+if crit_hit>0 {crit_hit=round(store.critical_multiplier)}
+
 orbit_angle += orbit_speed;
 orbit_radius -= spiral_speed;
 
@@ -12,7 +14,7 @@ if hp<=0
 {
 //instance_create_depth(other.x,other.y-12,depth-10,blood_splatter)
 repeat 6+random(2) instance_create_depth(other.x,other.y-8,depth-10,asteroid_debris)
-myReward=value * (1 + hud.combo_multiplier);
+myReward=value * (1 + hud.combo_multiplier +crit_hit);
 instance_create_depth(other.x,other.y+4,depth,show_text_green).myText="$"+string(myReward)
 store.gems+=myReward
 hud.run_gems+=myReward
@@ -21,7 +23,9 @@ if type="Gold Asteroid" {store.gold_destroyed+=1}
 if type="Diamond Asteroid" {store.diamond_destroyed+=1}
 
 //Extend Time
-if store.mine_asteroid_time_extend_chance>random(100) {hud.run_time+=120 instance_create_depth(other.x+3,other.y-22,depth-15,effect_clock)}
+var tmpLastSecond=1
+if store.relic_lastsecond>0 and hud.run_time<=180 {tmpLastSecond=2}
+if store.mine_asteroid_time_extend_chance*tmpLastSecond>random(100) {hud.run_time+=120 instance_create_depth(other.x+3,other.y-22,depth-15,effect_clock)}
 //Spawn
 if store.mine_spawn_chance>random(100) {
 instance_create_depth(x,y,depth,asteroid)
@@ -39,6 +43,7 @@ if store.powerup_secondwind=1 and 20>random(100) {instance_create_depth(x,y,dept
 combo_add(hud.combo_per_asteroid);
 
 store.job_xp+=1
+hud.run_asteroids_destroyed+=1
 
 instance_destroy()
 }

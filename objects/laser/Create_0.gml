@@ -1,4 +1,5 @@
 attack_damage=store.mine_damage
+if store.relic_snowball>0 {attack_damage+=hud.run_asteroids_destroyed}
 attack_effect=""
 critical_chance=store.mine_critical_chance
 move_speed=store.mine_move_speed
@@ -10,6 +11,7 @@ alarm[0]=8//-round(store.game_speed)
 alarm[1]=1
 multishot_offset=0
 bounce=0
+if store.relic_bouncy>0 {bounce=1}
 base_damage = attack_damage;
 base_crit = critical_chance;
 distance_traveled = 0;

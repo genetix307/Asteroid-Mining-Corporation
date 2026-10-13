@@ -1,7 +1,7 @@
 if run_end=0 {
 run_time-=1
 
-if run_time<=0 {run_end=1}
+if run_time<=0 {run_end=1 if store.relic_investor>0 {store.gems+=ceil(store.gems*.05)}}
 }
 
 //Combo

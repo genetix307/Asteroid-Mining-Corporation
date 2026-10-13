@@ -25,9 +25,9 @@
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":"_filter_ripples","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
         {"name":"g_RipplesPosition","type":0,"value":"0",},
         {"name":"g_RipplesPosition","type":0,"value":"0",},
-        {"name":"g_RipplesSpeed","type":0,"value":"0.1",},
-        {"name":"g_RipplesWidth","type":0,"value":"63",},
-        {"name":"g_RipplesAmplitude","type":0,"value":"0.225",},
+        {"name":"g_RipplesSpeed","type":0,"value":"0.2",},
+        {"name":"g_RipplesWidth","type":0,"value":"95",},
+        {"name":"g_RipplesAmplitude","type":0,"value":"0.1",},
         {"name":"g_RipplesRadius","type":0,"value":"0",},
       ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bg_space_tile4","path":"sprites/bg_space_tile4/bg_space_tile4.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

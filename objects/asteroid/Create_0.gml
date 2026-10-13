@@ -17,6 +17,7 @@ shield=0
 type="Asteroid"
 damaged=0
 spawntype=""
+crit_hit=0 //Critical Hit from laser
 alarm[0]=1
 image_alpha=0
 

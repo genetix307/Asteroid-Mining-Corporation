@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_show_criticalhit1",
-    "path":"sprites/spr_show_criticalhit1/spr_show_criticalhit1.yy",
+    "name":"spr_show_criticalhit",
+    "path":"sprites/spr_show_criticalhit/spr_show_criticalhit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
