@@ -4,6 +4,7 @@ run_time=store.mine_time*60
 run_end=0
 run_gems=0
 run_asteroids_destroyed=0
+run_interest=0
 
 repeat store.mine_asteroid_spawn instance_create_depth(x,y,depth,asteroid)
 

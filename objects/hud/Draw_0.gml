@@ -16,8 +16,9 @@ draw_set_font(font_med_hud)
 draw_text_shadow_color(456,362,"Earned "+calc_number(run_gems)+" Gems!",c_yellow,c_yellow,c_yellow,c_yellow)
 draw_set_font(font_stats_tiny)
 draw_text_shadow_color(400,405,"Asteroids until next promotion "+calc_number(store.job_xp)+"/"+calc_number(store.job_level*25),c_teal,c_teal,c_teal,c_teal)
+if run_interest>0 {draw_text_shadow_color(456,442,"Interest earned "+calc_number(run_interest)+" Gems!",c_yellow,c_yellow,c_yellow,c_yellow)}
 draw_set_font(font_stats)
-draw_text_shadow_color(410,442,"Press any button to Continue",c_white,c_white,c_white,c_white)
+draw_text_shadow_color(410,472,"Press any button to Continue",c_white,c_white,c_white,c_white)
 }
 
 //Show Combo
