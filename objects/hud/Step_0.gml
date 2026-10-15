@@ -1,7 +1,7 @@
 if run_end=0 {
 run_time-=1
 
-if run_time<=0 {run_end=1 if store.relic_investor>0 {run_interest+=ceil(store.gems*.05) store.gems+=run_interest}}
+if run_time<=0 or instance_number(asteroid)<=0 {run_end=1 if store.relic_investor>0 {run_interest+=ceil(store.gems*.05) store.gems+=run_interest}}
 }
 
 //Combo
