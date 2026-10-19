@@ -590,7 +590,6 @@
     {"id":{"name":"spr_show_key","path":"sprites/spr_show_key/spr_show_key.yy",},},
     {"id":{"name":"spr_show_lifesteal","path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},},
     {"id":{"name":"spr_stat_cap","path":"sprites/spr_stat_cap/spr_stat_cap.yy",},},
-    {"id":{"name":"spr_title_old","path":"sprites/spr_title_old/spr_title_old.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_tower","path":"sprites/spr_tower/spr_tower.yy",},},
     {"id":{"name":"spr_tower1","path":"sprites/spr_tower1/spr_tower1.yy",},},
