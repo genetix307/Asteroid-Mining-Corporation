@@ -20,7 +20,7 @@
         {"name":"g_RGBNoiseAnimation","type":0,"value":"0.425",},
         {"name":"g_RGBNoiseColour","type":1,"value":"#FF4C4C4C",},
         {"name":"g_RGBNoiseTexture","type":2,"value":"_filter_rgbnoise_noise",},
-      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bg_burning_village","path":"sprites/bg_burning_village/bg_burning_village.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
+      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"rm_story_default",
   "parent":{

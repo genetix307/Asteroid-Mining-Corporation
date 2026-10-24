@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_chest",
-    "path":"sprites/spr_chest/spr_chest.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
     "name":"btn_small_tab",
     "path":"sprites/btn_small_tab/btn_small_tab.yy",

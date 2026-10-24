@@ -1,3 +1,5 @@
+if room=rm_story_intro and x>970 {x-=3}
+
 if show_frame<1 {show_frame+=.05}
 if wait>0 {wait-=1} //Don't accidentally click on open
 var bg_layer=layer_get_id("Background");

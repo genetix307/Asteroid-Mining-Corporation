@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_tower",
-    "path":"sprites/spr_tower/spr_tower.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
